@@ -1,0 +1,349 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background: url("../img/banner.jpg") no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  height: 675px;
+
+}
+.container{
+  width: 91%;
+  margin: 0px 95px;
+  padding: 0;
+}
+.menu-header{
+  height: 100px;
+  width: 100%;
+
+}
+.logo{
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.menu{
+  width: 68%;
+  float: right;
+  overflow: hidden;
+  margin-top: 7px;
+}
+.menu > nav > ul {
+  margin: 0;
+  padding: 0;
+}
+.menu > nav > ul > li{
+  list-style: none;
+  display: inline-block;
+  line-height: 95px;
+}
+.menu > nav > ul > li > a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  padding: 15px;
+}
+.menu > nav > ul > li > a:hover{
+  color:#87d37c;
+  transition: .5s;
+}
+.slider-area{
+  margin: 110px 0px 0px 76px;
+}
+.content{
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.content > h3{
+  font-size: 36px;
+}
+.content >h1{
+ font-size: 100px;
+ border: 2px solid white;
+ display: inline;
+ padding: 12px 36px;
+}
+.content > h1 > span{
+  color: #87d37c;
+}
+.content > p {
+  font-size: 30px;
+}
+.about-us{
+  text-align: center;
+  margin-top: 115px;
+}
+.about-us > h3 {
+  font-weight: bolder;
+  font-size: 36px;
+}
+.skill{
+  width: 100%;
+  height: 260px;
+  /*background: red;*/
+}
+.skill-content{
+  height: auto;
+  width: 24%;
+  float: left;
+  overflow: hidden;
+  margin-right: 12px;
+  text-transform: uppercase;
+  margin-top: 72px;
+  /*background: blue;*/
+}
+.skill-content:hover {
+  color: #87d37c;
+  transition: .5s;
+}
+.skill-content >p {
+  font-size: 14px;
+text-transform: capitalize;
+line-height: 28px;
+/*float: left;*/
+}
+.services {
+	margin-top: 132px;
+	overflow: hidden;
+	background: #e1e1e1;
+  height: 640px;
+}
+.pic-content{
+  margin-top: 80px;
+
+
+}
+.content-pic{
+  float: left;
+  margin-right: 36px;
+  overflow: hidden;
+}
+.portfolio-menu > .container > ul{
+  margin: 0;
+  padding: 0;
+}
+.portfolio-menu > .container > ul > li{
+  list-style: none;
+  display: inline-block;
+}
+.portfolio-menu > .container > ul > li > a {
+	text-decoration: none;
+	color: white;
+	background: #010101;
+	font-size: 14px;
+	display: block;
+	padding: 10px 16px;
+	text-transform: uppercase;
+	margin: 0px 10px;
+}
+.portfolio-menu > .container > ul > li > a:hover{
+  background: #87d37c;
+  transition: .5s;
+}
+.portfolio-content{
+  margin-top: 60px;
+  overflow: hidden;
+}
+.portfolio-element {
+	float: left;
+	overflow: hidden;
+	margin-right: 24px;
+	margin-bottom: 20px;
+}
+.portfolio-content-second{
+  height: 340px;
+}
+.pricing{
+  height: 580px;
+  color: white;
+  overflow: hidden;
+}
+.pricing-element {
+  width: 245px;
+background: #39393a;
+height: 446px;
+overflow: hidden;
+float: left;
+margin-right: 61px;
+border-radius: 18px;
+margin-top: 100px;
+}
+.pricing-element:hover{
+  background: #87d37c;
+}
+.price-details{
+  height: 435px;
+width: 140px;
+overflow: hidden;
+line-height: 10px;
+}
+
+.price-title{
+  height: 135px;
+  width: 135px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 30px;
+
+}
+.price-title h3 {
+    font-family: "Oswald",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 44px;
+    text-transform: uppercase;
+}
+.price-title h3 span {
+    display: inline-block;
+    font-size: 14px;
+    left: 14px;
+    position: absolute;
+    top: 38px;
+}
+.price-list > ul {
+    margin: 30px 0 0;
+    padding: 0;
+}
+.price-list > ul > li {
+border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+  }
+  a.button {
+      background: #fff none repeat scroll 0 0;
+      color: #39393a;
+      display: inline-block;
+      font-size: 14px;
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      transition: .5s;
+}
+.project-area{
+  background: url(../img/bg2.jpg);
+  height: 335px;
+  overflow: hidden;
+  margin-top: 125px;
+}
+.project-counter{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.project-count{
+    height: 125px;
+    width: 250px;
+    border: 1px solid #ccc;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 53px;
+    position: relative;
+    left: 110px;
+
+}
+.project-count > h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 72px;
+  margin: 0px;
+
+}
+.project-count > span{
+  color: white;
+  font-size: 18px;
+}
+.contact{
+  background: #e3d5d5;
+  width: 100%;
+  height: 350px;
+  margin-top:125px;
+}
+.form{
+ position: relative;
+ top: 132px;
+}
+.form-left{
+  float: left;
+  overflow: hidden;
+  width: 500px;
+}
+.form-right{
+    float: left;
+    overflow: hidden;
+    width: 600px;
+    margin-left: 70px;
+}
+.form-text input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    margin: 10px 0px;
+    text-align: left;
+    font-style: italic;
+}
+#message{
+  border: 0 none;
+ color: #999;
+ display: block;
+ font-style: italic;
+ height: 100px;
+ margin-bottom: 20px;
+ padding: 6px 14px;
+ width: 600px;
+}
+.submit {
+  background-color: #87d37c;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+footer{
+  background: black;
+  width: 100%;
+  height: 70px;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+.copyright{
+  float: left;
+    /* text-align: center; */
+    margin-left: 37%;
+    line-height: 37px
+
+}
+.footer-icon{
+  float: right;
+  overflow: hidden;
+  padding-right: 135px;
+
+}
+.footer-icon i{
+  color: white;
+  line-height: 63px;
+  overflow: hidden;
+  padding: 7px;
+  font-size: 25px;
+}
